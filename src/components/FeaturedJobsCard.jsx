@@ -4,7 +4,7 @@ import React from "react";
 
 export default function FeaturedJobsCard() {
   return (
-    <div className="border border-slate-200 p-6 flex flex-col gap-4 max-w-[274px]">
+    <div className="border border-slate-200 p-6 flex flex-col gap-4 max-w-full">
       <div className="flex justify-between items-start">
         <Image
           src={Revolut}
