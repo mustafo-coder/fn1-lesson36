@@ -25,16 +25,18 @@ export default function DreamCompany() {
       <div className="w-[1px] h-[56px] bg-[#202430]"></div>
 
       <div className="flex flex-col items-start w-[413px]">
-        <div className="flex items-center gap-2">
-          <Image src={Location} width={19} height={19} alt="location icon" />
-          <input
-            type="text"
-            placeholder="Florence, Italy"
-            className="w-full outline-none text-gray-600 placeholder-gray-400 text-sm"
-          />
-        </div>
-        <div className="w-full h-[1px] bg-[#D6DDEB] mt-2"></div>
-      </div>
+            <div className="flex items-center gap-2">
+             <Image src={Location} width={19} height={19} alt="location icon" />
+             <select
+                className="w-full outline-none text-gray-600 placeholder-gray-400 text-sm bg-transparent"
+             >
+               <option value="Florence, Italy">Florence, Italy</option>
+               <option value="Rome, Italy">Rome, Italy</option>
+                <option value="Milan, Italy">Milan, Italy</option>
+             </select>
+            </div>
+            <div className="w-full h-[1px] bg-[#D6DDEB] mt-2"></div>
+          </div>
 
       <div>
         <button className="w-[113px] h-[50px] bg-[#4640DE] text-white font-semibold  hover:bg-[#3B38C8]">
