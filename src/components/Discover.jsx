@@ -27,9 +27,11 @@ export default function Discover() {
 
 
       <div className="mt-12 max-w-lg">
-        <h1 className="text-[#25324B] text-5xl font-bold leading-snug">
-          Discover more than <strong className="text-[#26A4FF]">5000+ Jobs</strong>
-        </h1>
+      <h1 className="text-[#25324B] text-7xl font-bold leading-snug">
+  <span className="block">Discover</span>
+  <span className="block">more than</span>
+  <strong className="block text-[#26A4FF]">5000+ Jobs</strong>
+</h1>
         <Image src="/Group.svg" width={456} height={40} alt="Group" className="my-4" />
         <p className="text-[#515B6F] text-lg mb-6">
           Great platform for the job seeker that searching for new career heights and passionate about startups.
