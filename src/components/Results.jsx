@@ -56,7 +56,7 @@ const results = {
 };
 export default function Results() {
   return (
-    <div className='container mx-auto '>
+    <div className='container mx-auto mb-12'>
         <div className='flex gap-4 '>
             <Image height={24} width={24} className='-mt-1' src={Design} alt="design"/>
             <p className='text-xl font-semibold'>{results.totalResults} Results</p>
