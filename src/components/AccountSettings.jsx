@@ -38,67 +38,91 @@ export default function AccountSettings() {
       </div>
       <hr color="#D6DDEB" />
       <form>
-        <div className="flex justify-between ">
+        <div className="flex justify-between py-6">
           <h1 className="font-semibold text-xl">Personal Details</h1>
           <section>
-            <label className="flex flex-col ">
-              <h1 className="font-semibold text-xl">
+            <label className="flex flex-col">
+              <h1 className="font-semibold text-xl text-slate-700">
                 Full Name <span className="text-red-500">*</span>
               </h1>
               <input
+                className="h-[50px] max-w-full border py-3 px-4 border-[#D6DDEB] "
                 type="text"
                 placeholder="Jake Gyll"
-                className="max-w-full"
               />
             </label>
-            <div className="flex gap-5">
+            <div className="flex gap-5 py-6">
               <label className="flex flex-col ">
-                <h1 className="font-semibold text-xl">
+                <h1 className="font-semibold text-xl text-slate-700">
                   Phone Number <span className="text-red-500">*</span>
                 </h1>
-                <input type="text" placeholder="+44 1245 572 135" />
+                <input
+                  className="h-[50px] max-w-full border py-3 px-4 border-[#D6DDEB] "
+                  type="text"
+                  placeholder="+44 1245 572 135"
+                />
               </label>
               <label className="flex flex-col ">
-                <h1 className="font-semibold text-xl">
+                <h1 className="font-semibold text-xl text-slate-700">
                   Email <span className="text-red-500">*</span>
                 </h1>
-                <input type="text" placeholder="Jakegyll@gmail.com" />
+                <input
+                  className="h-[50px] max-w-full border py-3 px-4 border-[#D6DDEB] "
+                  type="text"
+                  placeholder="Jakegyll@gmail.com"
+                />
               </label>
             </div>
             <div className="flex gap-5">
               <label className="flex flex-col ">
-                <h1 className="font-semibold text-xl">
+                <h1 className="font-semibold text-xl text-slate-700">
                   Date of Birth <span className="text-red-500">*</span>
                 </h1>
-                <input type="text" placeholder="09/08/1997" />
+                <input
+                  className="h-[50px] max-w-full border py-3 px-4 border-[#D6DDEB] "
+                  type="text"
+                  placeholder="09/08/1997"
+                />
               </label>
               <label className="flex flex-col ">
-                <h1 className="font-semibold text-xl">
+                <h1 className="font-semibold text-xl text-slate-700">
                   Gender <span className="text-red-500">*</span>
                 </h1>
-                <input type="text" placeholder="Jake Gyll" />
+                <input
+                  className="h-[50px] max-w-full border py-3 px-4 border-[#D6DDEB] "
+                  type="text"
+                  placeholder="Jake Gyll"
+                />
               </label>
             </div>
           </section>
         </div>
         <hr color="#D6DDEB" />
-        <section className="flex justify-between">
+        <section className="flex justify-between my-6">
           <div>
             <h1 className="font-semibold text-xl">Account Type</h1>
-            <p>You can update your account type</p>
+            <p className="text-[#515B6F]">You can update your account type</p>
           </div>
           <div className="flex flex-col">
-            <label>
-              <input type="radio" name="subscribe" /> Subscribe to newsletter
+            <label className="flex gap-7">
+              <input type="radio" name="subscribe" className="p-5"/>
+              <div>
+                <h1 className="text-xl text-slate-700">Job seeker</h1>
+                <p>Looking for a job</p>
+              </div>
             </label>
-            <label>
-              <input type="radio" name="subscribe" /> Subscribe to newsletter
+            <label className="flex gap-7">
+              <input type="radio" name="subscribe" />
+              <div>
+                <h1 className="text-xl text-slate-700">Employer</h1>
+                <p>Hiring, sourcing candidates, or posting a jobs</p>
+              </div>
             </label>
           </div>
         </section>
         <hr color="#D6DDEB" />
-        <div>
-          <button>Save Profile</button>
+        <div className="w-full flex justify-end my-6">
+          <button className="px-6 py-3 bg-[#4640DE] font-bold text-lg text-white">Save Profile</button>
         </div>
       </form>
     </div>
