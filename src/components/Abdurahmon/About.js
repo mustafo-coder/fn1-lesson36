@@ -54,8 +54,8 @@ export default function About() {
                         </Link>
                     </div>
                     <div className="flex gap-10">
-                        {data.map((item) => (
-                            <div className="flex gap-2">
+                        {data.map((item, index) => (
+                            <div key={index} className="flex gap-2">
                                 <Image
                                     src={item.image}
                                     alt="about"

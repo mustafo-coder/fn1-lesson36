@@ -54,8 +54,8 @@ export default function PerksBenefits() {
                 </p>
             </div>
             <div className="grid grid-cols-4 gap-6 ">
-                {data.map((item) => (
-                    <div className="flex flex-col gap-2 w-64 py-6 ">
+                {data.map((item, index) => (
+                    <div key={index} className="flex flex-col gap-2 w-64 py-6 ">
                         <img src={item.image} alt="" width={48} height={48} />
                         <h1 className="text-2xl font-bold">{item.title}</h1>
                         <p className="opacity-50 text-base">{item.content}</p>

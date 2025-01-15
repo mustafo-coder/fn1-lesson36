@@ -61,8 +61,11 @@ export default function RightContent() {
             </div>
             <div>
                 <div className="grid grid-cols-3">
-                    {data.map((item) => (
-                        <div className="flex flex-col items-center gap-3 w-24 mb-2">
+                    {data.map((item, index) => (
+                        <div
+                            key={index}
+                            className="flex flex-col items-center gap-3 w-24 mb-2"
+                        >
                             <Image
                                 src={item.image}
                                 alt=""
@@ -99,8 +102,8 @@ export default function RightContent() {
                 </p>
             </div>
             <div className="flex flex-col gap-2">
-                {countries.map((item) => (
-                    <div className="flex items-center gap-3 mb-2">
+                {countries.map((item, index) => (
+                    <div key={index} className="flex items-center gap-3 mb-2">
                         <Image
                             src={item.image}
                             alt=""
