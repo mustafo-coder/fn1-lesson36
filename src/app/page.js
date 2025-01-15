@@ -1,8 +1,9 @@
-import Footer from "@/components/Footer";
+import Register from "@/components/Register";
 
 export default function Home() {
   return (
-   <div className="text-center mt-10">
-   </div>
+    <div className="text-center">
+      <Register />
+    </div>
   );
 }
