@@ -32,10 +32,10 @@ const SocialPage = () => {
 
                     <div className="flex items-center">
                         <Image src={share} alt="share" />
-                        <div className="bg-[#D6DDEB] w-[1px] mx-7"></div>
+                        <div className="bg-[#D6DDEB] w-[1px] h-12 mx-7"></div>
                         <Link
                             href="/apply"
-                            className="py-[14px] px-14 bg-[#4640DE] text-white text-lg font-bold"
+                            className="py-[14px] px-14 mr-6 bg-[#4640DE] text-white text-lg font-bold"
                         >
                             Apply
                         </Link>
