@@ -9,12 +9,12 @@ import Latest from "@/components/shoxrux/latest-jobs";
 export default function page() {
   return (
     <div>
-      <Latest />
       <Discover />
       <DreamCompany />
       <RecommendeCompany />
       <Category />
       <Results />
+      <Latest />
     </div>
   );
 }
