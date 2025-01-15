@@ -24,3 +24,6 @@ export { default as Square } from "./square.svg";
 export { default as Divy } from "./divy.svg";
 export { default as Row } from "./row.svg";
 export { default as Revolut } from "./Revolut.svg";
+export { default as AvatarIcon } from "./avatar-icon.png";
+export { default as Alex } from "./Alex-defoult-avatar.png";
+export { default as Textfield } from "./Click-to-replace.png";

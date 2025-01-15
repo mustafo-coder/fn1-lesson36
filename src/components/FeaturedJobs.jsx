@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function FeaturedJobs() {
   return (
-    <div className="container">
+    <div className="container ">
       <div className="flex justify-between items-end mb-12">
         <h1 className="text-3xl  font-extrabold">
           Featured<span className="text-[#26A4FF]">jobs</span>
