@@ -73,7 +73,7 @@ export default function Results() {
 
         <button className='flex gap-4 '>
         <p className='mt-7 text-[#4640DE] font-semibold'>View more Design companies </p>
-        <Image src={Row} width={24} height={24} className='mt-7'/>
+        <Image src={Row} width={24} height={24} alt='image' className='mt-7'/>
         </button>
     </div>
   )
