@@ -11,6 +11,10 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        epilogue: ["var(--font-epilogue)", "sans-serif"], 
+        
+      },
     },
   },
   plugins: [],
