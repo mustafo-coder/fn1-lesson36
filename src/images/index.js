@@ -22,9 +22,5 @@ export { default as MediaMonks } from "./media-monks.svg";
 export { default as Packer } from "./packer.svg";
 export { default as Square } from "./square.svg";
 export { default as Divy } from "./divy.svg";
-
 export { default as Row } from "./row.svg";
-
-
-
-
+export { default as Revolut } from "./Revolut.svg";

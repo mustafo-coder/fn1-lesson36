@@ -5,6 +5,7 @@ import RecommendeCompany from "@/components/RecommendeCompany";
 import Results from "@/components/Results";
 import React from "react";
 import Latest from "@/components/shoxrux/latest-jobs";
+import FeaturedJobs from "@/components/FeaturedJobs";
 
 export default function page() {
   return (
@@ -13,6 +14,7 @@ export default function page() {
       <DreamCompany />
       <RecommendeCompany />
       <Category />
+      <FeaturedJobs />
       <Results />
       <Latest />
     </div>
