@@ -10,10 +10,7 @@ export default function page() {
   return (
     <div>
       <Discover />
-      <RecommendeCompany />
-      <Category />
       <FeaturedJobs />
-      <Results />
       <Latest />
     </div>
   );

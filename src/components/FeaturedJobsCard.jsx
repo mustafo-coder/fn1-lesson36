@@ -1,10 +1,11 @@
 import { Revolut } from "@/images";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 export default function FeaturedJobsCard() {
   return (
-    <div className="border border-slate-200 p-6 flex flex-col gap-4 max-w-full">
+    <Link href={"/jobs/1"} className="border border-slate-200 p-6 flex flex-col gap-4 max-w-full">
       <div className="flex justify-between items-start">
         <Image
           src={Revolut}
@@ -35,6 +36,6 @@ export default function FeaturedJobsCard() {
           Design
         </h2>
       </div>
-    </div>
+    </Link>
   );
 }

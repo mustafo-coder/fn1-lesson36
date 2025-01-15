@@ -1,5 +1,6 @@
 import { Discord, Foundation, Maze, Nomad, Udacity, Webflow } from '@/images'
 import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react'
 
 const Companies = [
@@ -63,7 +64,7 @@ export default function RecommendeCompany() {
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mt-8">
         {Companies.map((company) => (
-          <div
+          <Link href={"/companies/2"}
             key={company.id}
             className="bg-white border-[#D6DDEB] border-[1px] p-6 flex w-[390px] h-[390px] flex-col"
           >
@@ -95,7 +96,7 @@ export default function RecommendeCompany() {
                 </span>
               ))}
             </div>
-          </div>
+          </Link>
         ))}
       </div>
     </div>
