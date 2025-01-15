@@ -9,6 +9,9 @@ export default {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        loginBg: "url('/user.png')",
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
