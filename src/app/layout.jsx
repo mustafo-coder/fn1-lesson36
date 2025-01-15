@@ -1,7 +1,7 @@
 import { Epilogue} from "next/font/google";
 import "./globals.css";
 import Footer from "@/components/Footer";
-
+import Navbar from "@/components/Navbar";
 
 const epilogue = Epilogue({
     variable: "--font-epilogue",
@@ -19,6 +19,7 @@ export default function RootLayout({ children }) {
       <body
         className={`${epilogue.variable} ${epilogue.variable} antialiased`}
       >
+        <Navbar/>
         {children}
         <Footer/>
       </body>
