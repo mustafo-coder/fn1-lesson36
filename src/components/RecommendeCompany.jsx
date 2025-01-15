@@ -65,7 +65,7 @@ export default function RecommendeCompany() {
         {Companies.map((company) => (
           <div
             key={company.id}
-            className="bg-white border-[#D6DDEB] border-[1px] p-6 flex w-[390px] h-[390px] flex-col"
+            className="bg-white border-[#D6DDEB] border-[1px] p-6 flex w-[100%] h-[390px] flex-col"
           >
           
             <div className="flex justify-between items-center mb-4">

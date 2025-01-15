@@ -61,7 +61,7 @@ export default function Results() {
             <Image height={24} width={24} className='-mt-1' src={Design} alt="design"/>
             <p className='text-xl font-semibold'>{results.totalResults} Results</p>
         </div>
-        <div className='grid grid-cols-1 w-[1400px] h-[500px] mt-8 sm:grid-cols-2 md:grid-cols-4 gap-5'>  
+        <div className='grid grid-cols-1  h-[500px] mt-8 sm:grid-cols-2 md:grid-cols-4 gap-5'>  
             {results.data.map((result) => (  
                 <div key={result.id} className='border-[#D6DDEB] border-[1px] p-4 flex flex-col items-center justify-center'>  
                 <Image src={result.logo} height={88} width={88} alt={`${result.name} logo`} className='h-16 mb-2' /> {/* Adjust logo size accordingly */}  
@@ -73,7 +73,7 @@ export default function Results() {
 
         <button className='flex gap-4 '>
         <p className='mt-7 text-[#4640DE] font-semibold'>View more Design companies </p>
-        <Image src={Row} width={24} height={24} className='mt-7'/>
+        <Image src={Row} width={24} height={24} alt='image' className='mt-7'/>
         </button>
     </div>
   )

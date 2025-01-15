@@ -39,7 +39,7 @@ const Category = () => {
                 {categories.map((category) => (
                     <div
                         key={category.id}
-                        className="flex items-center w-[274px] group h-[173px] border-[#D6DDEB] border-[1px] justify-center flex-col p-6 bg-white hover:bg-[#4640DE] transition-shadow"
+                        className="flex items-center w-[100%]] group h-[173px] border-[#D6DDEB] border-[1px] justify-center flex-col p-6 bg-white hover:bg-[#4640DE] transition-shadow"
                     >
                         <Image
                             src={category.logo}
