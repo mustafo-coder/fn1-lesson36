@@ -15,6 +15,9 @@ export default {
         epilogue: ["var(--font-epilogue)", "sans-serif"], 
         
       },
+      container:{
+        center: true
+      }
     },
   },
   plugins: [],
